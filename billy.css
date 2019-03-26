@@ -1,11 +1,122 @@
 .ball{
-width: 100px;
-height: 100px;
+width: 40px;
+height: 40px;
 border-radius: 50%;
+line-height: 2.5;
+text-align: center;
 }
 .ball--red{
-  background-image: radial-gradient(farthest-corner at 45px 45px,white 7%,red 50%, #030 90%);
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,red 50%, #030 90%);
+  position: absolute;
+  /*top: 320px;
+  left: 790px;*/
+}
+.ball--red-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,red 50%, #030 90%);
+  position: absolute;
+  top: 280px;
+  left: 790px;
 }
 .ball--green{
-  background-image: radial-gradient(farthest-corner at 45px 45px,white 7%,green 50%, #030 90%);
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,green 50%, #030 90%);
+  position: absolute;
+  top: 200px;
+  left: 790px;
+}
+.ball--green-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,green 50%, #030 90%);
+  position: absolute;
+  top: 200px;
+  left: 720px;
+}
+.ball--yellow{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,yellow 50%, #030 90%);
+  position: absolute;
+  top: 240px;
+  left: 650px;
+}
+.ball--yellow-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,yellow 50%, #030 90%);
+  position: absolute;
+  top: 260px;
+  left: 685px;
+}
+.ball--pink{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,pink 50%, #030 90%);
+  position: absolute;
+  top: 220px;
+  left: 684px;
+}
+
+.ball--pink-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,pink 50%, #030 90%);
+  position: absolute;
+  top: 220px;
+  left: 755px;
+}
+
+.ball--black{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,black 50%, #030 90%);
+  position: absolute;
+  top: 240px;
+  left: 720px;
+}
+
+.ball--blue{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,blue 50%, #030 90%);
+  position: absolute;
+  top: 280px;
+  left: 720px;
+}
+
+.ball--blue-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,blue 50%, #030 90%);
+  position: absolute;
+  top: 300px;
+  left: 755px;
+}
+
+.ball--purple{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,purple 50%, #030 90%);
+  position: absolute;
+  top: 260px;
+  left: 755px;
+}
+
+.ball--purple-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,purple 50%, #030 90%);
+  position: absolute;
+  top: 240px;
+  left: 790px;
+}
+
+.ball--darkred{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,darkred 50%, #030 90%);
+  position: absolute;
+  top: 180px;
+  left: 755px;
+}
+.ball--darkred-{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,darkred 50%, #030 90%);
+  position: absolute;
+  top: 160px;
+  left: 790px;
+}
+.ball--white{
+  background-image: radial-gradient(farthest-corner at 16px 16px,white 7%,white 50%, #030 90%);
+  position: absolute;
+  top: 240px;
+  left: 170px;
+  color: white;
+}
+
+#table{
+  width: 1000px;
+  height: 700px;
+  z-index: -1;
+  position: absolute;
+}
+#table img{
+  width: 1000px;
+  height: 500px;
 }

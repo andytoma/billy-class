@@ -12,8 +12,13 @@ class Ball {
     var html = `
     <div class="ball ball--${this.color}">
       <div> ${this.number}</div>
+      <div> ${this.x}</div>
+      <div> ${this.y}</div>
     </div>
     `;
     document.write(html);
   }
 }
+
+var Pool_Table = document.getElementById('table');
+Pool_Table.innerHTML
